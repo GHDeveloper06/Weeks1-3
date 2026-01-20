@@ -149,8 +149,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c05fbedda62494d85a2da3e62355e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
-  Colour: {r: 1, g: 1, b: 1, a: 1}
+  spriteRenderer: {fileID: 65892217}
+  Colour: {r: 0.12967247, g: 0.24232607, b: 0.8867924, a: 1}
+  barrels:
+  - {fileID: 8245305397469200176, guid: 7325cb2f51d34fb4da5e5c33ebff71db, type: 3}
+  - {fileID: 9055863997953671947, guid: ae3435eb873794f4aad3d12f14a9fc6f, type: 3}
+  - {fileID: 8310752768603522028, guid: 3662a97cdce73b6438721e9cc78fa2a9, type: 3}
+  - {fileID: -1300542943886331552, guid: 7438fe7e13cdbbd469268ebbf97ce37b, type: 3}
+  - {fileID: -1770437590499438382, guid: 4fc3048364d89c645863aa9b26f60996, type: 3}
+  - {fileID: 7817427211821529809, guid: a0061415aa2dea54ba084d671d7d39e7, type: 3}
+  - {fileID: -3342229992890737199, guid: 23a40b2d3e307b7408a31134ffd6ac7b, type: 3}
+  randomNum: 0
 --- !u!212 &65892217
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -196,7 +205,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 99a4da4168c2f9e4ea14c1fa29dd4598, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8584906, g: 0.3523051, b: 0.3523051, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -231,7 +240,6 @@ GameObject:
   m_Component:
   - component: {fileID: 882919535}
   - component: {fileID: 882919534}
-  - component: {fileID: 882919533}
   m_Layer: 0
   m_Name: duck_yellow_0
   m_TagString: Untagged
@@ -239,20 +247,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &882919533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882919532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c05fbedda62494d85a2da3e62355e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 65892217}
-  Colour: {r: 0, g: 0, b: 0, a: 1}
 --- !u!212 &882919534
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -317,8 +311,8 @@ Transform:
   m_GameObject: {fileID: 882919532}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.893508, y: -0.36616182, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.893508, y: -0.3755, z: 0}
+  m_LocalScale: {x: 1, y: 1.0198, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
