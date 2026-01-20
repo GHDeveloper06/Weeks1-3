@@ -16,7 +16,7 @@ public class Pulse : MonoBehaviour
     void Update()
     {
         t += Time.deltaTime;
-        If(t > 1) {
+        if(t > 1) {
             t = 0;
         }
 
