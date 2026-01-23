@@ -34,10 +34,13 @@ public class SpriteChanger : MonoBehaviour
         // is it over the shape
         if (spriteRenderer.bounds.Contains(mousPos)==true)
         {
+            Colour = Color.grey;
             spriteRenderer.color = Colour;
         }
         else {
-            Colour = Color.grey;
+            Colour = Color.red;
+            spriteRenderer.color = Colour;
+            
         }
         if (Mouse.current.leftButton.wasPressedThisFrame == true && barrels.Count > 0) 
         {

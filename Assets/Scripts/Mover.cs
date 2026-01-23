@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    public float speed = 0;
+    public float speed = 0f;
     public float xMax = 10;
     public float xMin = -10;
     public Camera gameCamera;
